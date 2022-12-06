@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .input {
+    @apply mb-2 px-3 py-2 rounded-lg shadow-lg bg-bg-black border-2 border-gray-500 hover:border-jotai-green-light transition-all focus:outline-none focus:border-jotai-green-light focus:ring-1 focus:ring-black;
+  }
+
+  .button {
+    @apply w-full py-2 rounded-xl text-white bg-stone-900 border-2 border-gray-500 hover:border-jotai-green-light shadow-md hover:bg-jotai-green-dark transition-all;
+  }
+}
