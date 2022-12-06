@@ -10,9 +10,9 @@ const Login = () => {
         </div>
         <div>
           <form className="flex flex-col">
-            <label>Username</label>
+            <label className="label">Username</label>
             <input type="text" className="input" />
-            <label>Password</label>
+            <label className="label">Password</label>
             <input type="password" className="input" />
           </form>
           <div>

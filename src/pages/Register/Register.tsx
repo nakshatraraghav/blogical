@@ -7,13 +7,13 @@ const Register = () => {
         <h1 className="text-5xl font-extrabold mb-2">blogical</h1>
         <h3 className="text-2xl font-bold mb-1">Register</h3>
         <form className="flex flex-col">
-          <label>Name</label>
+          <label className="label">Name</label>
           <input type="text" className="input" />
-          <label>Username</label>
+          <label className="label">Username</label>
           <input type="text" className="input" />
-          <label>E-Mail</label>
+          <label className="label">E-Mail</label>
           <input type="email" className="input" />
-          <label>Password</label>
+          <label className="label">Password</label>
           <input type="password" className="input" />
         </form>
         <div>

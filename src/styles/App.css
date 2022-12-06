@@ -3,11 +3,27 @@
 @tailwind utilities;
 
 @layer components {
+  .label {
+    @apply text-base;
+  }
+
+  /* .menu-item-div {
+    @apply flex justify-center xl:w-[200px] lg:rounded-full lg:justify-start text-base my-3 py-3 px-3 rounded-full border-2 border-bg-black hover:bg-jotai-green-dark hover:border-jotai-green-light transition-all;
+  } */
+
+  .menu-item-div {
+    @apply flex w-1/12 justify-center items-center xl:w-[200px] cursor-pointer xl:justify-start lg:rounded-full text-base my-3 p-3 border-2 border-bg-black xl:hover:bg-jotai-green-dark xl:hover:border-jotai-green-light transition-all;
+  }
+
   .input {
-    @apply mb-2 px-3 py-2 rounded-lg shadow-lg bg-bg-black border-2 border-gray-500 hover:border-jotai-green-light transition-all focus:outline-none focus:border-jotai-green-light focus:ring-1 focus:ring-black;
+    @apply text-txt-white text-base mb-2 px-3 py-2 rounded-lg shadow-lg bg-bg-black border-2 border-gray-500 hover:border-jotai-green-light transition-all focus:outline-none focus:border-jotai-green-light focus:ring-1 focus:ring-black;
   }
 
   .button {
-    @apply w-full py-2 rounded-xl text-white bg-stone-900 border-2 border-gray-500 hover:border-jotai-green-light shadow-md hover:bg-jotai-green-dark transition-all;
+    @apply mt-2 w-full py-2 rounded-xl text-white bg-stone-900 border-2 border-gray-500 hover:border-jotai-green-light shadow-md hover:bg-jotai-green-dark transition-all;
+  }
+
+  .menu-item-txt {
+    @apply hidden xl:flex;
   }
 }
