@@ -7,7 +7,7 @@ const Login = () => {
       <div className="w-[400px]">
         <div>
           <div className="flex">
-            <img src={logo} alt="Blogical Logo" className="w-12 h-12 mr-5" />
+            <img src={logo} alt="Blogical Logo" className="w-12 h-12 mr-3" />
             <h1 className="text-5xl font-extrabold mb-3">blogical</h1>
           </div>
           <p className="mb-2 text-lg font-bold">Login</p>

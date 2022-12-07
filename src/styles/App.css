@@ -12,7 +12,7 @@
   } */
 
   .menu-item-div {
-    @apply flex w-1/12 justify-center items-center xl:w-[200px] cursor-pointer xl:justify-start lg:rounded-full text-base my-3 p-3 border-2 border-bg-black xl:hover:bg-jotai-green-dark xl:hover:border-jotai-green-light transition-all;
+    @apply flex w-1/12 justify-center my-6 px-5 rounded-3xl xl:my-3 hover:bg-jotai-green-dark hover:border-jotai-green-light items-center xl:p-3 border-2 border-bg-black xl:w-[200px] cursor-pointer xl:justify-start lg:rounded-full xl:hover:bg-jotai-green-dark xl:hover:border-jotai-green-light transition-all;
   }
 
   .input {

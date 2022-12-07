@@ -6,7 +6,7 @@ const Register = () => {
     <div className="h-screen w-screen flex flex-col items-center justify-center shadow-2xl">
       <div className="w-[400px]">
         <div className="flex">
-          <img src={logo} alt="Blogical Logo" className="w-12 h-12 mr-5" />
+          <img src={logo} alt="Blogical Logo" className="w-12 h-12 mr-3" />
           <h1 className="text-5xl font-extrabold mb-3">blogical</h1>
         </div>
         <h3 className="text-2xl font-bold mb-1">Register</h3>
