@@ -6,7 +6,7 @@ const Profile: React.FC = () => {
     <div className="flex mb-5 items-center ">
       <img
         src={user.profilePicture}
-        className="h-20 rounded-full mr-2"
+        className="h-20 rounded-full mr-2 hover:opacity-60 transition-opacity"
         alt="User profile"
       />
       <div className="hidden xl:flex flex-col mr-2">
