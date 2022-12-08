@@ -71,3 +71,15 @@ export const outlinedIcons = {
   Bookmarks: BookmarksOutlinedIcon,
   List: ListOutlinedIcon,
 };
+
+import InsertPhotoOutlinedIcon from "@mui/icons-material/InsertPhotoOutlined";
+import GifBoxOutlinedIcon from "@mui/icons-material/GifBoxOutlined";
+import EmojiEmotionsOutlinedIcon from "@mui/icons-material/EmojiEmotionsOutlined";
+import PollOutlinedIcon from "@mui/icons-material/PollOutlined";
+
+export const inputIcons = {
+  photo: InsertPhotoOutlinedIcon,
+  gif: GifBoxOutlinedIcon,
+  emoji: EmojiEmotionsOutlinedIcon,
+  poll: PollOutlinedIcon,
+};

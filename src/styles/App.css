@@ -12,7 +12,7 @@
   } */
 
   .menu-item-div {
-    @apply flex w-1/12 justify-center my-6 px-5 rounded-3xl xl:my-3 hover:bg-jotai-green-dark hover:border-jotai-green-light items-center xl:p-3 border-2 border-bg-black xl:w-[200px] cursor-pointer xl:justify-start lg:rounded-full xl:hover:bg-jotai-green-dark xl:hover:border-jotai-green-light transition-all;
+    @apply flex w-1/12 justify-center my-4 px-5 rounded-3xl xl:my-2 hover:bg-jotai-green-dark hover:border-jotai-green-light items-center xl:p-3 border-2 border-bg-black xl:w-[200px] cursor-pointer xl:justify-start lg:rounded-full xl:hover:bg-jotai-green-dark xl:hover:border-jotai-green-light transition-all;
   }
 
   .input {
@@ -21,6 +21,10 @@
 
   .button {
     @apply mt-2 w-full py-2 rounded-xl text-white bg-stone-900 border-2 border-gray-500 hover:border-jotai-green-light shadow-md hover:bg-jotai-green-dark transition-all;
+  }
+
+  .input-icons {
+    @apply h-5 w-5 cursor-pointer transition-all hover:transition-transform duration-300 ease-in-out hover:scale-125 text-[];
   }
 
   .menu-item-txt {
