@@ -4,12 +4,14 @@ import { user } from "../../data/user";
 import { inputIcons } from "../../assets/Icons/Icons";
 import CloseIcon from "@mui/icons-material/Close";
 
+import logo from "../../assets/blogical.png";
+
 const Input = () => {
   const [text, setText] = useState<string>("");
   const [file, setFile] = useState<any>();
   const imageIconRef = useRef<HTMLInputElement>(null);
   return (
-    <div className="flex space-x-2 px-2 justify-between border-b-2 pb-6 border-border-gray ">
+    <div className="flex space-x-2 px-2 justify-between border-b-2 pb-6 border-border-gray scrollbar-hide">
       <img
         src={user.profilePicture}
         className="h-14 w-16 rounded-full mr-2 hover:opacity-60 transition-opacity"
@@ -41,7 +43,7 @@ const Input = () => {
           </div>
         ) : null}
         <div className="pl-1 flex w-full items-center justify-between">
-          <div className="space-x-4 flex">
+          <div className="space-x-2 xl:space-x-4 flex">
             <div
               className="ml-2"
               onClick={() => {
@@ -76,10 +78,16 @@ const Input = () => {
           </div>
           <button
             disabled={!text}
-            className="button py-1 rounded-full w-[100px] mr-3 disabled:opacity-40"
+            className="button py-1 rounded-full w-1/4 max-w-[100px]  mr-3  disabled:opacity-40"
           >
             Post
           </button>
+          {/* <button
+            className="flex md:hidden button w-10 h-10 items-center justify-center mr-6 "
+            disabled={!text}
+          >
+            <img src={logo} alt="Blogical Logo" className="w-6 h-6" />
+          </button> */}
         </div>
       </div>
     </div>
@@ -87,6 +95,3 @@ const Input = () => {
 };
 
 export default Input;
-function MutableRefObject<T>() {
-  throw new Error("Function not implemented.");
-}
